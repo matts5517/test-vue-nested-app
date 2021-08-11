@@ -1,0 +1,6 @@
+Options +FollowSymlinks
+Options -Indexes
+
+RewriteEngine On
+
+RewriteRule .* index.html [NC,QSA,L]
